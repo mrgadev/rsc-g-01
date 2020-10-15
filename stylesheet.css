@@ -1,0 +1,227 @@
+h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 27px;
+    opacity: 0.8;
+}
+/* CSS bagian header */
+a{
+    text-decoration:none;
+}
+
+
+
+li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+header {
+    height: 50px;
+    width: 70%;
+    background-color: #FFFAFA;
+  }
+  
+  .logo {
+    width: 50px;
+    margin:0 ;
+    height: 59px;
+    border-radius: 50%;
+  }
+  
+  .header-left {
+    float: left;
+    height: 50px;
+    padding: 5px 5px;
+    background-color: #C0C0C0;
+    transition: all 0.5s;
+  }
+  
+  .header-right {
+    float: right;
+ 
+    
+  }
+  
+  .header-left:hover {
+    background-color: cyan;
+  }
+  
+  /* Tambahkan CSS untuk tag <a> didalam header-right */
+  .header-left a{
+    line-height:10px;
+    display:block;
+    color: white;
+  }
+  .subheader-list{
+    padding: 3px 5px;
+    color: white;
+}
+
+  
+
+
+
+/* CSS Bagsian <main> */
+main {
+    height: 500px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/02/19/11/19/computer-1209641_960_720.jpg);
+    background-size: cover;
+}
+
+.main-title {
+    padding: 120px 0 120px 0;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    opacity: 0.8;
+}
+
+h1 {
+    letter-spacing: 5px;
+}
+
+/* CSS Bagian Body */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+body {
+    margin: 0;
+}
+.content {
+    float: left;
+}
+.h1body {
+    color: cadetblue;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.profilbody {
+    margin: 35px;
+    text-align: center;
+    position: relative;
+}
+.profilbody h2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+.profilbody h3 {
+    font-family: sans-serif;
+    text-align: center;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+.container h2 {
+    font-family: sans-serif;
+}
+.profil-wrapper {
+    padding-bottom: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+.clear {
+    clear: left;
+}
+input {
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 1px solid #dee7ec;
+  }
+  
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+h4 {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+  /* responsive css below */
+@media all and (max-width: 1000px) {
+    .content {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    .content > div:nth-of-type(1)
+    {
+        float: none;
+        margin: 10px 90px;
+
+    }
+  }
+@media all and (max-width: 650px) {
+    .content {
+      width: 90%;
+    }
+    .content > div:nth-of-type(1){
+        margin: 10px 0;
+    }
+    .profilbody {
+        float:none;
+        margin: 10px 0;
+    }
+  }
+
+/* CSS Untuk Footer di Bawah */
+.footer {
+ 
+  background-color: #808080;
+  
+  color: #fff;
+  
+  height: 250px;
+  
+  padding: 15px;
+  
+}
+
+/* Gantikan font-size dan property float footer-logo */
+.footer-logo {
+  font-size: 28px;
+  font-family: sans-serif;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.contents-item {
+  float: left;
+  /* Gantikan margin-right ke 40px */
+  
+}
+
+.contents-item img{
+  width: 40px;
+  float: left;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.footer-copyright p{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 100px; 
+}
